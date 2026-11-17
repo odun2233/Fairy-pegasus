@@ -23,7 +23,7 @@ public class FairyPegasusClient implements ClientModInitializer {
 		flyUpKey = KeyBindingHelper.registerKeyBinding(new KeyBinding(
 				"key.fairypegasus.fly_up", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_R, "key.categories.fairypegasus"));
 		flyDownKey = KeyBindingHelper.registerKeyBinding(new KeyBinding(
-				"key.fairypegasus.fly_down", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_C, "key.categories.fairypegasus"));
+				"key.fairypegasus.fly_down", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_V, "key.categories.fairypegasus"));
 
 		ClientTickEvents.END_CLIENT_TICK.register(client -> {
 			int vertical = 0;
