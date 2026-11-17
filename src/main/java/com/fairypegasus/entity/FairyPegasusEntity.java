@@ -109,6 +109,12 @@ public class FairyPegasusEntity extends AbstractHorseEntity implements GeoEntity
 		return this.getWorld().getPlayerByUuid(this.getOwnerUuid());
 	}
 
+	/** Required by Minecraft's Tameable rule. */
+	@Override
+	public PlayerEntity getOwner() {
+		return getOwnerPlayer();
+	}
+
 	// ---------- goals ----------
 
 	@Override
