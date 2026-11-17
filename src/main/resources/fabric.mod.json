@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "fairypegasus",
+  "version": "${version}",
+  "name": "Fairy Pegasus",
+  "description": "A rideable, flying Fairy Pegasus. Feed a horse a diamond to turn it into one.",
+  "authors": ["Fairy Pegasus Team"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.fairypegasus.FairyPegasusMod"],
+    "client": ["com.fairypegasus.client.FairyPegasusClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*",
+    "geckolib": "*"
+  }
+}
