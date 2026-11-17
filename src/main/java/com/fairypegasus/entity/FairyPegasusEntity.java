@@ -115,6 +115,11 @@ public class FairyPegasusEntity extends AbstractHorseEntity implements GeoEntity
 		return getOwnerPlayer();
 	}
 
+	/** Also required by Minecraft's Tameable rule. This method has no readable name, only a code name. */
+	public World method_48926() {
+		return this.getWorld();
+	}
+
 	// ---------- goals ----------
 
 	@Override
